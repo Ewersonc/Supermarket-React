@@ -1,0 +1,73 @@
+.CadastroPag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #cfabe7;
+}
+
+.cadastroContainer {
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    border: 3px solid #8319c9;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+
+.formGroupCadastro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+    gap: 5px;
+    width: 100%;
+
+    
+    input {
+        width: 80%;
+        height: 40px;
+        border-radius: 10px;
+        padding: 0 10px;
+        border: 1px solid rgba(190, 188, 188, 0.993);
+        background-color: #cfabe78c;
+        outline: 2px solid #8319c9bb;
+    }
+
+    i {
+        font-size: 20px;
+        margin: 5px;
+        padding: 5px;
+        color: gray;
+
+    }
+}
+
+.formCadastro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    gap: 15px;
+    width: 100%;
+    h1{
+        color: #8319c9;
+    }
+
+    button {
+        padding: 8px 15px;
+        border-radius: 20px;
+        background-color: #8319c9;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+        color: white;
+        cursor: pointer;
+        border: none;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+}

@@ -1,0 +1,162 @@
+.Homepage {
+    width: 100vw;
+    height: 100vh;
+    background-color: #cfabe7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Home-bar {
+    background-color: #8319c9;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 6%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    #brand {
+        width: 10%;
+        display: flex;
+        flex-direction: row;
+        display: flex;
+            align-items: center;
+            justify-content: center;
+
+        h2{
+            color: white;
+            margin-top: 17px;
+            margin-left: 5px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            border: 1px solid #cfabe7;
+            padding: 5px;
+            border-radius: 10px;
+
+            
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+            background-color: transparent;
+            width: 50px;
+            height: 50px;
+            padding: 0;
+            margin-right: 5%;
+            
+
+
+        }
+
+    }
+
+    #options {
+        width: 70%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+        button {
+            background-color: transparent;
+            border: transparent;
+            color: white;
+            cursor: pointer;
+            border-radius: 10px;
+            height: 30px;
+            margin: 0 10px;
+            font-size: 15px;
+
+        }
+
+    }
+
+    #user-info {
+        width: 10%;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+        button {
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            border: 1px solid white;
+            padding: 0;
+            margin-right: 5%;
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+
+        }
+    }
+
+
+}
+
+
+.table-container {
+    width: 90%;
+    max-width: 1200px;
+    margin-top: 120px;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+
+.table-container h2 {
+    color: #8319c9;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 22px;
+}
+
+
+.zebra-table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 12px;
+    overflow: hidden;
+    font-size: 16px;
+}
+
+
+.zebra-table thead {
+    background-color: #8319c9;
+    color: white;
+}
+
+.zebra-table th {
+    padding: 12px;
+    text-align: left;
+    font-weight: 600;
+}
+
+
+.zebra-table tbody tr:nth-child(odd) {
+    background-color: #f4dbff;
+}
+
+.zebra-table tbody tr:nth-child(even) {
+    background-color: #ead2ff;
+}
+
+
+.zebra-table tbody tr:hover {
+    background-color: #cfabe7;
+    cursor: pointer;
+}
+
+.zebra-table td {
+    padding: 12px;
+    border-bottom: 1px solid #d6b4f0;
+}
