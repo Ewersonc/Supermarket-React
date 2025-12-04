@@ -112,8 +112,7 @@ Você pode adicioná-los assim:
 ## 📦 Melhorias Futuras
 
 -   Carrinho de compras
--   Autenticação JWT
--   Sistema de usuários
+-   Sistema perfil de usuários
 -   Painel administrativo
 -   Sistema de favoritos
 -   Layout totalmente responsivo
